@@ -13,3 +13,4 @@ Observations: Console.log returns pointing to the js file in the root folder, th
 
 |const called in a console.log|caffeinated: true|caffeinated: true| note: just extra testing of the js file
 
+|'let' '+7" then a Boolean 'let==17' and a 'if' 'return'| |True, 17 minutes, Practice Complete|Uncaught SyntaxError: Illegal return statement| not fully understanding "return" trying to have it state something by just writing text in it; removed the 'if, return' issue with lacking a console log for the Boolean causing a respone in the log of only the practiceMinutes after +7, this line only gets added to the 10 causing it to read in log as 107, after adding the console.log to the Boolean it reads false because of the adding 7 to the end of 10.

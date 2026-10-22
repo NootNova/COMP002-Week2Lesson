@@ -9,9 +9,22 @@ function calculateTicketTotal(priceText, quantityText, hasDiscount = false) {
 
 }
 
+
 const coffee = "true"
 
 console.log(`caffeinated: ${coffee}`)
+
+
+let practiceMinutes = "10"
+
+practiceMinutes = practiceMinutes + 7;
+
+console.log(practiceMinutes == 17)
+
+console.log(`${practiceMinutes} minutes`)
+
+
+
 
 console.log(calculateTicketTotal('2.50', '3')); 
 
