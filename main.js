@@ -1,5 +1,8 @@
 
+
 console.log('COMP-002 activity: script loaded');
+
+
 
 function calculateTicketTotal(priceText, quantityText, hasDiscount = false) {
   
@@ -10,9 +13,11 @@ function calculateTicketTotal(priceText, quantityText, hasDiscount = false) {
 }
 
 
+
 const coffee = "true"
 
 console.log(`caffeinated: ${coffee}`)
+
 
 
 const complete = {Completion:"Practice Complete!"};
@@ -33,6 +38,15 @@ if (practiceMinutes >= 17) {
 
 }
 
+
+
+console.log(typeof '5');
+
+console.log('5' + 2);
+
+console.log(Number('5') + 2);
+
+console.log(Number(''));
 
 
 

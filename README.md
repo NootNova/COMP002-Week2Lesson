@@ -20,3 +20,16 @@ Observations: Console.log returns pointing to the js file in the root folder, th
 |added a function for practice and now am going to call for a function that'll run console logs based off of booleans with a if else| "17 minutes" "Practice Complete!"| "17 minutes" "Practice Complete!"| got what I had wanted to happen by switching to a function though through my understanding I'm still lacking a 'string' for the assignment|
 
 |running a cosnt with a string to met needing assignment standards| "17 minutes" "{Completion: Practice Complete}"|"17 minutes" "{Completion: Practice Complete}"
+
+Explain why the changing binding uses let... "let is a variable declartion that can be reassigned a new value."
+
+3. "Preict and run the four conversion calls..."
+
+console.log(typeof '5');
+|5|string|typeof reads the literal 'value type' in a string.|
+console.log('5' + 2);
+|52|52|
+console.log(Number('5') + 2);
+|7|7|
+console.log(Number(''));
+|0|0|
