@@ -17,4 +17,6 @@ Observations: Console.log returns pointing to the js file in the root folder, th
 
 |trying to run a if else for practice minutes >= 17 calling a let that = practice complete or displaying a log of practice incomplete| "practice complete" "17 minutes"| Uncaught TypeError: practice is not a function| ended up trying to call let = practice as a function. [practice()]|
 
-|added a function for practice and now am going to call for a function that'll run console logs based off of boolens with a if else| "17 minutes" "Practice Complete!"| "17 minutes" "Practice Complete!"| got what I had wanted to happen by switching to a function though through my understanding I'm still lacking a 'string' for the assignment|
+|added a function for practice and now am going to call for a function that'll run console logs based off of booleans with a if else| "17 minutes" "Practice Complete!"| "17 minutes" "Practice Complete!"| got what I had wanted to happen by switching to a function though through my understanding I'm still lacking a 'string' for the assignment|
+
+|running a cosnt with a string to met needing assignment standards| "17 minutes" "{Completion: Practice Complete}"|"17 minutes" "{Completion: Practice Complete}"

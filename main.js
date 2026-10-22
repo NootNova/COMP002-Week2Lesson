@@ -17,12 +17,6 @@ console.log(`caffeinated: ${coffee}`)
 
 const complete = {Completion:"Practice Complete!"};
 
-function practice() {
-
-  console.log("Practice Complete!");
-
-}
-
 let practiceMinutes = 10;
 
 practiceMinutes = practiceMinutes + 7;
@@ -35,7 +29,7 @@ if (practiceMinutes >= 17) {
 
 } else {
 
-  console.log(complete);
+  console.log("Practice Is Incomplete.");
 
 }
 
