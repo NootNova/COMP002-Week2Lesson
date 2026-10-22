@@ -15,13 +15,29 @@ const coffee = "true"
 console.log(`caffeinated: ${coffee}`)
 
 
-let practiceMinutes = "10"
+const complete = {Completion:"Practice Complete!"};
+
+function practice() {
+
+  console.log("Practice Complete!");
+
+}
+
+let practiceMinutes = 10;
 
 practiceMinutes = practiceMinutes + 7;
 
-console.log(practiceMinutes == 17)
-
 console.log(`${practiceMinutes} minutes`)
+
+if (practiceMinutes >= 17) {
+
+  console.log(complete);
+
+} else {
+
+  console.log(complete);
+
+}
 
 
 
