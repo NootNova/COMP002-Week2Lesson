@@ -9,6 +9,10 @@ function calculateTicketTotal(priceText, quantityText, hasDiscount = false) {
 
 }
 
+const coffee = "true"
+
+console.log(`caffeinated: ${coffee}`)
+
 console.log(calculateTicketTotal('2.50', '3')); 
 
 // Expected 7.5 before discount
