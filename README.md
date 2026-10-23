@@ -1,6 +1,6 @@
+
 Author: Nova Wolta
 Purpose: Week 2 lesson for the COMP002 Course.
-
 
 # Week 2 guided practice
 
@@ -26,10 +26,37 @@ Explain why the changing binding uses let... "let is a variable declartion that 
 3. "Preict and run the four conversion calls..."
 
 console.log(typeof '5');
+
 |5|string|typeof reads the literal 'value type' in a string.|
+
 console.log('5' + 2);
-|52|52|
+
+|52|52|string|
+
 console.log(Number('5') + 2);
-|7|7|
+
+|7|7|number|
+
 console.log(Number(''));
-|0|0|
+
+|0|0|number|
+
+----------------
+
+console.log(5 * 5);
+
+|25|25|number|
+
+console.log(20 >= Number('21'));
+
+|false|false|
+
+console.log(Boolean('true'));
+
+|false|true|came back true because its a true Boolean same as if it read Boolean('false')|
+
+"Identify a statement containing an experssion"
+
+if (practiceMinutes >= 17) 
+
+|the statement, 'if' contains the experssion for the variable practiceMinutes 

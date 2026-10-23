@@ -48,6 +48,12 @@ console.log(Number('5') + 2);
 
 console.log(Number(''));
 
+console.log(5 * 5);
+
+console.log(20 >= Number('21'));
+
+console.log(Boolean('true'));
+
 
 
 console.log(calculateTicketTotal('2.50', '3')); 
